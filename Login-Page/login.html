@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Responsive Login and Signup Form </title>
+        <link rel="stylesheet" href="CSS/login.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                        
+    </head>
+    <body>
+        <section class="container forms">
+            <div class="form login">
+                <div class="form-content">
+                    <header>Login</header>
+                    <form id="login-form">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input" id="email">
+                        </div>
+                        <p style="color:red" id="Email-error">Email does not exist</p>
+                        <div class="field input-field">
+                            <input type="password" placeholder="Password" class="password" id="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+                        <p style="color:red" id="Password-error">Invalid Password</p>
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">Forgot password?</a>
+                        </div>
+                        
+                        <div class="field button-field">
+                            <button type="submit">Login</button>
+                        </div>
+                    </form>
+
+                    <div class="form-link">
+                        <span>Don't have an account? <a href="./index (reg).html" class="link signup-link">Signup</a></span>
+                    </div>
+                
+            </div>      
+        </section>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="Js/login.js" type="text/javascript"></script>
+    </body>
+</html>
